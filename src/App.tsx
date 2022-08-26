@@ -11,7 +11,8 @@ function App() {
   const [value, setValue] = useState(minDate);
   const handleChange = useCallback((_, data) => setValue(data.value), []);
 
-  console.log("st now", spacetime.now().toNativeDate());
+  console.log("st now", spacetime.today().toNativeDate());
+  console.log("date now", new Date());
 
   return (
     <Datepicker
