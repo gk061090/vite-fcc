@@ -1,0 +1,26 @@
+{
+  "name": "vite-fcc",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fcc/icons": "^2.6.0",
+    "@fcc/ui": "^9.9.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "spacetime": "^7.1.4",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@types/react": "^16.14.30",
+    "@types/react-dom": "^16.9.16",
+    "@vitejs/plugin-react": "^2.0.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0"
+  }
+}
